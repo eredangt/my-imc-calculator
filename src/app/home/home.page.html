@@ -4,17 +4,17 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content color="light">
   <ion-fab vertical="top" horizontal="end" edge slot="fixed">
     <ion-fab-button (click)="onCalculate()" color="secondary" [disabled]="!isFormValid()">
       <ion-icon name="calculator"></ion-icon>
     </ion-fab-button>
   </ion-fab>
-  <ion-item>
+  <ion-item color="light">
     <ion-label position="floating">Peso (kg)</ion-label>
     <ion-input type="number" [(ngModel)]="weight"></ion-input>
   </ion-item>
-  <ion-item>
+  <ion-item color="light">
     <ion-label position="floating">Altura (m)</ion-label>
     <ion-input type="number" [(ngModel)]="height"></ion-input>
   </ion-item>
